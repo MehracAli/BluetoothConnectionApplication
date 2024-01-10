@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "GEIl2hCbbpk4C2IkBa1BL+RZyDukJ8p/rKFLk4zAYHSQJZ/ePk9mdEcMvtc1Vc2y9LlVsyd3jHavrrg2xTC5ug==",
+  "success": true,
+  "projectFilePath": "D:\\Programming\\BluetoothConnector\\BluetoothConnector\\BluetoothConnector.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mehra\\.nuget\\packages\\inthehand.bluetoothle\\4.0.35\\inthehand.bluetoothle.4.0.35.nupkg.sha512",
+    "C:\\Users\\mehra\\.nuget\\packages\\inthehand.forms\\2.0.2020.1212\\inthehand.forms.2.0.2020.1212.nupkg.sha512",
+    "C:\\Users\\mehra\\.nuget\\packages\\inthehand.net.bluetooth\\4.1.40\\inthehand.net.bluetooth.4.1.40.nupkg.sha512",
+    "C:\\Users\\mehra\\.nuget\\packages\\linux.bluetooth\\5.64.0\\linux.bluetooth.5.64.0.nupkg.sha512",
+    "C:\\Users\\mehra\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
+    "C:\\Users\\mehra\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512",
+    "C:\\Users\\mehra\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512",
+    "C:\\Users\\mehra\\.nuget\\packages\\tmds.dbus\\0.11.0\\tmds.dbus.0.11.0.nupkg.sha512",
+    "C:\\Users\\mehra\\.nuget\\packages\\xamarin.forms\\4.8.0.1687\\xamarin.forms.4.8.0.1687.nupkg.sha512"
+  ],
+  "logs": []
+}
