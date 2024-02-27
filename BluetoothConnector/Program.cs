@@ -11,12 +11,10 @@ class Program
 
     static void ListBluetoothDevices()
     {
-        // Create a Bluetooth client
         BluetoothClient bluetoothClient = new BluetoothClient();
-        // Discover devices
+
         var devices = bluetoothClient.DiscoverDevices();
 
-        // Display information about discovered devices
         Console.WriteLine("Discovered Bluetooth Devices:");
         var device1 = devices.FirstOrDefault(d => d.DeviceAddress.ToString() == "50F9589F53F6");
         foreach (BluetoothDeviceInfo device in devices)
@@ -34,24 +32,17 @@ class Program
         try
         {
             BluetoothSecurity.PairRequest(device.DeviceAddress, null);
-            // Create a Bluetooth client
             BluetoothClient bluetoothClient = new BluetoothClient();
 
-            // Create a Bluetooth address from the device address string
             BluetoothAddress bluetoothAddress = device.DeviceAddress;
 
-            // Set a timeout for the connection attempt (e.g., 10 seconds)
-            int timeout = 10000; // 10 seconds
+            int timeout = 10000;
 
-            // Attempt to connect to the specified Bluetooth device with a timeout
             bluetoothClient.Connect(bluetoothAddress, BluetoothService.SerialPort);
 
-            // Connection successful
             Console.WriteLine($"Connected to Bluetooth device at address: {device.DeviceAddress} - {device.Authenticated} - {device.Connected}");
 
-            // Perform your communication with the device here...
             Console.Read();
-            // Close the Bluetooth client when done
             bluetoothClient.Close();
         }
         catch (Exception ex)
